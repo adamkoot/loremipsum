@@ -1,0 +1,40 @@
+{
+  "name": "lorem-ipsum",
+  "version": "1.0.0",
+  "description": "Aplikacja stworzona na konkurs HackHeroes",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client \"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mKepka16/loremipsum.git"
+  },
+  "author": "Michał Kępka, Adam Kot, Maciej Jastrzębski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mKepka16/loremipsum/issues"
+  },
+  "homepage": "https://github.com/mKepka16/loremipsum#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.14",
+    "react-big-calendar": "^0.28.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

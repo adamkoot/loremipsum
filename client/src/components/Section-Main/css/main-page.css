@@ -1,0 +1,33 @@
+.svg {
+    width: 30%;
+    margin: 20px;
+}
+
+.arrowLeftBox {
+    cursor: pointer;
+    padding-left: 11px;
+    padding-top: 5px;
+    border-radius: 23px;
+}
+
+.arrowRightBox {
+    cursor: pointer;
+    padding: 5px 4px 0 7px;
+    border-radius: 23px;
+}
+
+.arrowLeftBox:hover, .arrowRightBox:hover {
+    background: rgba(175, 171, 171, 0.473);  
+}
+
+.divider {
+    margin: 10px 0 !important;
+}
+
+.p {
+    letter-spacing: .08em !important;
+}
+
+.article {
+    margin: 150px 0 300px 0;
+}
