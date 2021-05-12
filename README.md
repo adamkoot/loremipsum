@@ -33,11 +33,6 @@ Dokumentacje naszej aplikacji znajdziesz [tutaj](https://docs.google.com/documen
 
 ## loremipsum
 
-### Członkowie
-* **Michał Kępka**
-* **Adam Kot**
-* **Maciej Jastrzębski**
-
 ### Role w zespole
 Opis poszczególnych ról, jakie posiadali członkowie naszego zespołu, możesz sprawdzić [tutaj](https://drive.google.com/file/d/1S24dO8OagQZ_b8HLdRX75S771hGjX6S7/view?usp=sharing).
   
